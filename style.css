@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.menu-container {
+    color: black;
+    background-color: turquoise;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+  
+.menu {
+    width: auto;
+    display: grid;
+    justify-content: space-between;
+}
+
+.image-grid-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.image-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-grid-item {
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.kris{
+    text-align: center;   
+}
+
+#ppic {
+    width: 30%;
+    height: auto;
+    border-radius: 0%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: turquoise;
+    color: black;
+}
+
+.email-pic {
+    border-radius: 0%;
+}
+
+.foot-grid {
+    margin: 10px;
+}
+
+.skills {
+    width: 900px;
+    height: 400px;
+    margin: 10px;
+}
